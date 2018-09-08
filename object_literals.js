@@ -1,1 +1,1 @@
-//create object
+//create book object
