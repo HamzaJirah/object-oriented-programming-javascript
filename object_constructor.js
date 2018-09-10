@@ -1,7 +1,9 @@
 //Object Constructor
 
 function Student(){
-  console.log('intialized object...');
+  this.name = name;
+  this.prefect = preect;
+  this.age = age;
 }
 
 //instantiate object
