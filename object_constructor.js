@@ -6,3 +6,4 @@ function Student(){
 
 //instantiate object
 const student1 = new Student();
+const student2 = new Student();
