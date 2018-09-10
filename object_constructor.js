@@ -14,5 +14,6 @@ const student1 = new Student('Phil Jeff', 'time-keeper', '15');
 const student2 = new Student('Kenneth Mike', 'labour-captain', '16');
 
 //log to console
-console.log(student1.getSummary());
-console.log(student2.getSummary());
+console.log(student1);
+// console.log(student1.getSummary());
+// console.log(student2.getSummary());
