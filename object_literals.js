@@ -18,4 +18,4 @@ const student2 = {
     return `${this.name} was the ${this.title} in ${this.year}`;
   }
 }
-console.log(student1.getSummary());
+console.log(student2.getSummary());
