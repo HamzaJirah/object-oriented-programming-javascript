@@ -5,3 +5,4 @@ const student1 = {
   year: '2000'
 }
 console.log(student1);
+console.log(student1.title);
