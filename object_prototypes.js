@@ -10,6 +10,11 @@ Student.prototype.getSummary = function (){
   return `${this.name} has been the ${this.prefect} since ${this.year}`
 }
 
+//getAge
+Student.prototype.getAge = function(){
+  const years = new Date().getFullYear - this.year;
+}
+
 const student1 = new Student("Abraham Isa'ac", 'headboy', '2000')
 console.log(student1.getSummary());
 console.log(student1);
