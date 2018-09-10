@@ -4,3 +4,4 @@ const student1 = {
   title: 'prefect',
   year: '2000'
 }
+console.log(student1);
