@@ -9,7 +9,7 @@ function Student(name, prefect, age){
   }
 }
 
-//instantiate object
+//instantiate object i.e create as many objects as you want
 const student1 = new Student('Phil Jeff', 'time-keeper', '15');
 const student2 = new Student('Kenneth Mike', 'labour-captain', '16');
 
