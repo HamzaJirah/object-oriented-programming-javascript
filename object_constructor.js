@@ -9,3 +9,6 @@ function Student(name, prefect, age){
 //instantiate object
 const student1 = new Student('Phil Jeff', 'time-keeper', '15');
 const student2 = new Student('Kenneth Mike', 'labour-captain', '16');
+
+//log to console
+console.log(student1.name);
