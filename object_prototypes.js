@@ -16,8 +16,14 @@ Student.prototype.getAge = function(){
   return `${this.name} has been the ${this.prefect} for ${years} years`
 }
 
+//Review /Change Year
+Student.prototype.review = function(newYear){
+  this.year = newYear;
+  this.reviewed = true;
+}
+
 const student1 = new Student("Abraham Isa'ac", 'headboy', '2000')
 const student2 = new Student('Maleek Musa', 'house captain', '2003')
 
-
+console.log(student2);
 
