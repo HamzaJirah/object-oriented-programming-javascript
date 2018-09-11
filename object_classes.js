@@ -5,3 +5,6 @@ class Student {
     this.year = year;
   }
 }
+
+//instantiate object
+const student1 = new Student('Hamza Jirah', 'health prefect', '2005'); 
