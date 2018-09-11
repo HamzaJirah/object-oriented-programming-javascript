@@ -28,6 +28,6 @@ class Student {
 //instantiate object
 const student1 = new Student('Hamza Jirah', 'health prefect', '2005'); 
 
-console.log(student1);
-student1.review('2016');
-console.log(student1);
+// console.log(student1);
+// student1.review('2016');
+// console.log(student1);
