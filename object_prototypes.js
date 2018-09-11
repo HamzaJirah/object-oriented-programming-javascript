@@ -26,4 +26,6 @@ const student1 = new Student("Abraham Isa'ac", 'headboy', '2000')
 const student2 = new Student('Maleek Musa', 'house captain', '2003')
 
 console.log(student2);
+student2.review('2013');
+console.log(student2);
 
