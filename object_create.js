@@ -8,4 +8,7 @@ const getAge = function (){
   return `${this.name} has been the ${this.prefect} for ${years} years`;
 };
 
+//create object
+const student1 = Object.create(studentProtos);
+
 
