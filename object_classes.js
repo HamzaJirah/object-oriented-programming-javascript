@@ -11,7 +11,12 @@ class Student {
 
   getAge (){
     const years = new Date().getFullYear() - this.year;
-    return `${this.name} has been the ${this.prefect} for ${years} years`
+    return `${this.name} has been the ${this.prefect} for ${years} years`;
+  }
+
+  review (newYear){
+    this.year = newYear;
+    this.reviewed = true;
   }
 }
 
