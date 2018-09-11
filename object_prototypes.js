@@ -17,6 +17,5 @@ Student.prototype.getAge = function(){
 }
 
 const student1 = new Student("Abraham Isa'ac", 'headboy', '2000')
-console.log(student1.getSummary());
-console.log(student1.getAge());
+
 
