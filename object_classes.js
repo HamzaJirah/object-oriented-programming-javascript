@@ -20,6 +20,9 @@ class Student {
   }
 
   //static method
+  static topStudent(){
+    return `Jirah Ibrahim`;
+  }
 }
 
 //instantiate object
