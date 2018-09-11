@@ -21,4 +21,4 @@ class Pupil extends Student {
 //instantiate object
 const pupil1 = new Pupil('Salim Shere', 'sports prefect', '2017', 'Sept');
 
-console.log(pupil1);
+console.log(pupil1.getSummary());
