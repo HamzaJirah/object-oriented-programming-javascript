@@ -6,7 +6,7 @@ class Student {
   }
 
   getSummary (){
-    return `${this.name} is the only reliable ${this.prefect} in our school ${this.year}`;
+    return `${this.name} is the only reliable ${this.prefect} in our school since ${this.year}`;
   }
 }
 
