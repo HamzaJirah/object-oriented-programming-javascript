@@ -18,3 +18,5 @@ class Pupil extends Student {
   }
 }
 
+//instantiate object
+
