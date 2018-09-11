@@ -17,3 +17,4 @@ function Friends(name, prefect, year, month){
 };
 
 //Instantitate friends
+const friend1 = new Friends('Buhari Sule', 'food prefect', '1999', 'Sept');
