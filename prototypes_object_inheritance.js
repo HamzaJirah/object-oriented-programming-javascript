@@ -22,4 +22,7 @@ Friends.prototype = Object.create(Student.prototype);
 //Instantitate friends
 const friend1 = new Friends('Buhari Sule', 'food prefect', '1999', 'Sept');
 
+//use Friends constructor
+Friends.prototype.constructor = Friends;
+
 console.log(friend1.getSummary());
