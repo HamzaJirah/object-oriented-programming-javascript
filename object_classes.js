@@ -13,4 +13,4 @@ class Student {
 //instantiate object
 const student1 = new Student('Hamza Jirah', 'health prefect', '2005'); 
 
-console.log(student1.getSummary());
+console.log(student1);
