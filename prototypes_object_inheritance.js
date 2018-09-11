@@ -15,3 +15,5 @@ function Friends(name, prefect, year, month){
   Student.call(this, name, prefect, year);
   this.month = month;
 };
+
+//Instantitate friends
