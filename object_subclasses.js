@@ -13,7 +13,8 @@ class Student {
 //pupil subclass
 class Pupil extends Student {
   constructor (name, prefect, year, month){
-    
+    super(name, prefect, year)
+    this.month = month;
   }
 }
 
