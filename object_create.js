@@ -10,5 +10,9 @@ const getAge = function (){
 
 //create object
 const student1 = Object.create(studentProtos);
+student1.name = 'Hamza Jirah';
+student1.prefect = 'health prefect';
+student1.year = '2004';
+
 
 
