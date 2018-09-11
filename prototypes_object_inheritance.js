@@ -16,6 +16,9 @@ function Friends(name, prefect, year, month){
   this.month = month;
 };
 
+//inherit prototype
+Friends.prototype = Object.create(Student.prototype);
+
 //Instantitate friends
 const friend1 = new Friends('Buhari Sule', 'food prefect', '1999', 'Sept');
 
