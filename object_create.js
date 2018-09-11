@@ -1,4 +1,6 @@
 //object prototype
-const studentProtos = function (){
-  return `${this.name} has been the ${this.prefect} since ${this.year};
-}
+const studentProtos = function (name, prefect, year){
+  return `${this.name} has been the ${this.prefect} since ${this.year}`;
+};
+
+
