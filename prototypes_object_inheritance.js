@@ -11,3 +11,6 @@ Student.prototype.getSummary = function (){
 }
 
 //books read constructor
+function Friends(name, prefect, year, month){
+
+}
