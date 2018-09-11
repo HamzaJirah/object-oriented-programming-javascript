@@ -17,5 +17,7 @@ Student.prototype.getAge = function(){
 }
 
 const student1 = new Student("Abraham Isa'ac", 'headboy', '2000')
+const student2 = new Student('Maleek Musa', 'house captain', '2003')
+
 
 
