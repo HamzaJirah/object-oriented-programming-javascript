@@ -11,5 +11,7 @@ class Student {
 }
 
 //pupil subclass
-
+class Pupil extends Student (){
+  
+}
 
