@@ -12,6 +12,8 @@ class Student {
 
 //pupil subclass
 class Pupil extends Student {
-
+  constructor (name, prefect, year, month){
+    
+  }
 }
 
