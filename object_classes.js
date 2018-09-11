@@ -18,6 +18,8 @@ class Student {
     this.year = newYear;
     this.reviewed = true;
   }
+
+  //static method
 }
 
 //instantiate object
